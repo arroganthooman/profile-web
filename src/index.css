@@ -11,3 +11,575 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #faf3dd;
+  width: 100%;
+}
+
+/* Animation */
+.txt-type::after {
+  content: "";
+  border-left: 0.2rem solid #777;
+  animation: blink 0.7s infinite ease;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/* end of animation */
+
+/* tools */
+.content {
+  background-color: #faf3dd;
+  height: 100vh;
+  width: 100%;
+}
+
+.navbar-custom {
+  background-color: #64958f;
+}
+
+nav a {
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+}
+
+
+/* Homepage */
+.home-content {
+  background-color: #faf3dd;
+  height: 92vh;
+  width: 100%;
+}
+
+.homepage {
+  background-color: #faf3dd;
+}
+
+.heading-margin {
+  margin-top: 9.55vh;
+}
+
+.homepage .row-foto {
+  margin-top: 6.9vh;
+}
+
+.homepage .hello {
+  margin-top: 8.3vh;
+  display: flex;
+  justify-content: center;
+}
+
+.homepage .fikri {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  filter: drop-shadow(5px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.homepage .typewriter {
+  margin-top: 1.38vh;
+}
+.homepage .hello h3,
+.homepage .typewriter h3 {
+  font-size: 35px;
+  font-family: "Quicksand";
+  font-weight: 700;
+  text-align: center;
+}
+
+.homepage .more-info {
+  margin-top: 8.3vh;
+}
+
+.homepage .more-info p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+}
+/* end of homepage */
+
+/* desc */
+
+.desc .heading {
+  flex-direction: row-reverse;
+}
+
+.desc .heading p {
+  font-size: 35px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  margin-right: 5.5vw;
+  text-align: center;
+  text-shadow: 6px 6px 5px rgba(0, 0, 0, 0.25);
+}
+
+.desc .isi-desc {
+  margin-top: 12vh;
+  margin-left: 6vw;
+}
+
+.desc .isi-desc p {
+  font-family: "Quicksand";
+  font-weight: medium;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 50px;
+  font-size: 25px;
+  text-align: justify;
+}
+
+.desc .foot-quote {
+  flex-direction: row-reverse;
+  margin-top: 10.5vh;
+}
+
+.desc .foot-quote p {
+  text-align: right;
+  color: #065c6f;
+  font-family: "Playfair Display";
+  font-style: italic;
+  font-weight: 900;
+  font-size: 20px;
+  margin-right: 5.5vw;
+  letter-spacing: 0.03em;
+}
+
+/* educational background */
+
+.edu .title p {
+  font-family: "Poppins", sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  text-align: center;
+  text-shadow: 6px 6px 5px rgba(0, 0, 0, 0.25);
+}
+
+.edu .isi-edu {
+  display: flex;
+  justify-content: center;
+  margin-top: 10vh;
+}
+
+.edu .isi-edu img {
+  width: 100px;
+  height: 100px;
+  filter: drop-shadow(6px 6px 5px rgba(0, 0, 0, 0.5));
+}
+
+.edu .isi-edu .flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.edu .isi-edu .kasih-border {
+  border-right: 2px solid black;
+  height: 50vh;
+}
+
+.edu .isi-edu p {
+  font-family: "Quicksand";
+  font-size: 23px;
+  font-weight: 700;
+}
+
+.edu .isi-edu .flex .row:nth-child(2) {
+  margin-top: 8vh;
+}
+
+/* skills */
+.skills {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.skills .title {
+  display: flex;
+  align-items: center;
+}
+
+.skills .title p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 38px;
+  text-shadow: 6px 6px 5px rgba(0, 0, 0, 0.25);
+}
+
+.skills img {
+  width: 70px;
+  height: 70px;
+}
+
+.skills .skills-icon {
+  margin-bottom: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.skills .skills-desc p {
+  font-family: "Quicksand";
+  font-weight: 700;
+  font-size: 25px;
+  text-align: justify;
+  text-align-last: center;
+  letter-spacing: 3px;
+}
+
+/* Experiences */
+
+.m-20 {
+  margin-top: -3.2vh;
+}
+.experiences .row-satu,
+.experiences .row-dua {
+  height: 50vh;
+}
+
+.experiences .row-satu .col-md:nth-child(1),
+.experiences .row-dua .col-md:nth-child(2) {
+  background-color: #eae4d1;
+}
+
+.experiences img {
+  height: 100px;
+  width: 100px;
+} 
+
+.experiences p {
+  font-family: "Quicksand";
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.experiences .no-gutters {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  padding-top: 45.5vh;
+  z-index: 1;
+}
+
+.experiences .no-gutters p {
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* Contact */
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact .title p {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.contact .row-satu img {
+  width: 50px;
+  height: 50px;
+  margin-right: 2vw;
+}
+
+.contact .row-satu {
+  display: flex;
+  justify-content: center;
+}
+.contact .row-satu p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 8px;
+}
+
+.contact .row-dua {
+  margin-top: 20vh;
+}
+.contact .row-dua p {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  font-weight: bold;
+}
+
+.contact .con-3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.contact .con-3 a {
+  margin-top: 4.15vh;
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+
+.contact .con-3 img {
+  width: 30px;
+  height: 30px;
+  opacity: 0.9;
+}
+
+/* projects */
+
+.homepage .budayaKB img {
+  max-width: 100%;
+  height: auto;
+}
+
+.budayaKB .title {
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+}
+
+.budayaKB .description {
+  font-size: 20px;
+  font-family: "Quicksand", sans-serif;
+  text-align: justify;
+  text-align-last: center;
+}
+
+.owoj .title {
+  font-size: 40px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.owoj .description {
+  font-size: 20px;
+  font-family: "Quicksand", sans-serif;
+  text-align: justify;
+  text-align-last:center ;
+}
+
+.owoj img {
+  height: auto;
+  max-width: 100%;
+}
+
+/* --------------Responsive--------------- */
+/* 576 */
+@media screen and (max-width: 768px) {
+  
+  .content {
+    height: 120vh;
+  }
+  nav a {
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+  }
+
+  /* Homepage */
+  .heading-margin {
+    margin-top: 7.5vh;
+  }
+
+  .homepage .row-foto {
+    margin-top: 12vh;
+  }
+
+  .homepage .row-foto img {
+    width: 200px;
+    height: 200px;
+  }
+  .homepage .hello h3,
+  .homepage .typewriter h3 {
+    font-size: 25px;
+    font-family: "Quicksand";
+    font-weight: 700;
+  }
+
+  .homepage .more-info {
+    margin-top: 15vh;
+  }
+
+  .homepage .more-info p {
+    font-size: 12px;
+  }
+  .homepage svg {
+    width: 1em;
+    height: 1em;
+    margin-top: -1.38vh;
+  }
+
+  /* Desc page */
+  .desc .heading {
+    display: flex;
+    justify-content: center;
+  }
+  .desc .heading p {
+    font-size: 25px;
+    margin-right: 0;
+    text-decoration: none;
+  }
+
+  .desc .isi-desc {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .desc .isi-desc p {
+    text-align: justify;
+    text-align-last: center;
+    font-size: 15px;
+    line-height: 40px;
+  }
+
+  .desc .foot-quote p {
+    font-size: 15px;
+    text-align: center;
+    margin-right: 0;
+  }
+
+  /* educational background */
+
+  .edu .title p {
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .edu .isi-edu img {
+    width: 100px;
+    height: 100px;
+  }
+  .edu .isi-edu .kasih-border {
+    border: none;
+    width: 30vh;
+    height: 30vh;
+  }
+
+  .edu .isi-edu p {
+    font-size: 15px;
+  }
+
+  .edu .isi-edu .flex .row:nth-child(2) {
+    margin-top: 1vh;
+  }
+
+  /* skills */
+
+  .skills .title {
+    justify-content: center;
+    margin-top: -20vh;
+  }
+  .skills .title p {
+    font-size: 25px;
+  }
+
+  .skills .skills-icon {
+    justify-content: space-evenly;
+    margin-top: 7vh;
+  }
+  .skills .skills-icon img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .skills .skills-desc p {
+    text-align: center;
+    text-align-last: center;
+    font-size: 15px;
+  }
+
+  /* experiences */
+
+  .experiences {
+    height: 110vh;
+  }
+
+  .experiences .row-dua .col-md:nth-child(1) {
+    background-color: #eae4d1;
+  }
+  .experiences .row-dua .col-md:nth-child(2) {
+    background-color: #faf3dd;
+  }
+  .experiences .no-gutters {
+    padding-top: 0;
+    position: relative;
+  }
+  .experiences .no-gutters p {
+    font-size: 20px;
+    text-align: center;
+  }
+  .experiences img {
+    height: 50px;
+    width: 50px;
+  }
+
+  .experiences .row p {
+    text-align: center;
+    font-size: 15px;
+  }
+
+  /* contact */
+
+  .contact {
+    height: 100vh;
+  }
+  .contact .title p {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .contact .row-satu div {
+    display: flex;
+    justify-content: center;
+  }
+
+  .contact .row-satu img {
+    width: 40px;
+    height: 40px;
+  }
+  .contact .row-satu p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    margin-top: 8px;
+  }
+
+  .contact .row-dua p {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .contact .con-3 a {
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
+
+  .contact .con-3 img {
+    width: 30px;
+    height: 30px;
+  }
+
+
+  /* ------------------Projects---------------- */
+  .budayaKB .title, .owoj .title {
+    font-size: 25px;
+  }
+  .budayaKB .description, .owoj .description {
+    font-size: 15px;
+  }
+}
+
