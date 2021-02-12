@@ -1,5 +1,5 @@
 {
-  "homepage": "http://arroganthooman.github.io/react-profile-web",
+  "homepage": "http://arroganthooman.github.io/profile-web",
   "name": "profile-web",
   "version": "0.1.0",
   "private": true,
@@ -17,9 +17,9 @@
     "web-vitals": "^1.1.0"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "start": "node server/server.js",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -b master -d build",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
