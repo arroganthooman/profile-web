@@ -27,7 +27,7 @@ function Skills() {
                         I can code in Python and Java. These also made my critical
                         thinking and problem solving gets sharper. To see projects i've worked on, click 
                         <Link to="/projects">
-                        <a> here</a>
+                        here
                         </Link>.
                         </p>
                     </div>

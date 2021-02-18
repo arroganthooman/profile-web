@@ -57,7 +57,7 @@ nav a {
 /* Homepage */
 .home-content {
   background-color: #faf3dd;
-  height: 92vh;
+  height: 90vh;
   width: 100%;
 }
 
@@ -104,7 +104,12 @@ nav a {
 .homepage .more-info p {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 22px;
+}
+
+.bi-emoji-smile {
+  margin-left: 1.5vh;
+  margin-right: 1.5vh;
 }
 /* end of homepage */
 
@@ -387,6 +392,10 @@ nav a {
   }
 
   /* Homepage */
+  .home-content {
+    height:92.5vh;
+  }
+
   .heading-margin {
     margin-top: 7.5vh;
   }
