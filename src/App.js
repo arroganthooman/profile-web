@@ -15,12 +15,12 @@ function App() {
       <div className="App">
         <Navbar/>
         <Switch>
-          <Route path="/profile-web" exact component={Homepage} />
-          <Route path="/about" exact component={About}/>
-          <Route path="/background" exact component={Background}/>
-          <Route path="/skills" exact component={Skills}/>
-          <Route path="/experiences" exact component={Experiences}/>
-          <Route path="/contact" exact component={Contact}/>
+          <Route path="/" exact component={Homepage} />
+          <Route path="/about"  component={About}/>
+          <Route path="/background"  component={Background}/>
+          <Route path="/skills"  component={Skills}/>
+          <Route path="/experiences"  component={Experiences}/>
+          <Route path="/contact"  component={Contact}/>
         </Switch>
       </div>
     </Router>
