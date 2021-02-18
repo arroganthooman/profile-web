@@ -101,7 +101,7 @@ const Homepage = () => {
 
                 {/* <!-- scroll to see more --> */}
                 <div className="row d-flex justify-content-center more-info">
-                <p>Happy exploring!</p>
+                <p>Happy surfing!</p>
                 </div>
                 <div className="row d-flex justify-content-center">
                 <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" fill="currentColor" className="bi bi-emoji-smile" viewBox="0 0 16 16">
