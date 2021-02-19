@@ -6,7 +6,7 @@ const Navbar = () => {
         textDecoration:'none'
     }
 
-    const content = ["about", "background", "skills", "experiences", "contact", "projects"]
+    const content = ["about", "background", "skills", "experiences", "projects", "contact"]
     
     return (
         <>

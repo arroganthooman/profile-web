@@ -17,7 +17,7 @@ const Projects = () => {
             <div className="row d-flex justify-content-center align-items-center">
                 <div className="col-md-4 d-flex justify-content-center">
                     <div className="card" style={{width: "18rem", marginTop:"8vh"}}>
-                        <img className="card-img-top" src={gomurojaah} alt="Card image cap"/>
+                        <img className="card-img-top" src={gomurojaah} alt="GoMuroja'ah"/>
                         <div className="card-body">
                             <h5 className="card-title">GoMuroja'ah</h5>
                             <p className="card-text">
@@ -30,7 +30,7 @@ const Projects = () => {
                 </div>
                 <div className="col-md-4 d-flex justify-content-center">
                     <div className="card" style={{width: "18rem", marginTop:"8vh"}}>
-                        <img className="card-img-top" src={coronow} alt="Card image cap"/>
+                        <img className="card-img-top" src={coronow} alt="CoroNow"/>
                         <div className="card-body">
                             <h5 className="card-title">CoroNow</h5>
                             <p className="card-text">
@@ -42,7 +42,7 @@ const Projects = () => {
                 </div>
                 <div className="col-md-4 d-flex justify-content-center last-child">
                     <div className="card" style={{width: "18rem", marginTop:"8vh"}}>
-                        <img className="card-img-top" src={porto} alt="Card image cap"/>
+                        <img className="card-img-top" src={porto} alt="Portofolio website"/>
                         <div className="card-body">
                             <h5 className="card-title">Portofolio Website</h5>
                             <p className="card-text">This exact website. Build using create-react-app and deployed to github pages.</p>
