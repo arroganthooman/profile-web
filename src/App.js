@@ -8,6 +8,7 @@ import Background from './Components/Background.js'
 import Skills from './Components/Skills.js'
 import Experiences from './Components/Experiences.js'
 import Contact from './Components/Contact.js'
+import Projects from './Components/Projects.js'
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/skills"  component={Skills}/>
           <Route path="/experiences"  component={Experiences}/>
           <Route path="/contact"  component={Contact}/>
+          <Route path="/projects" component={Projects} />
         </Switch>
       </div>
     </Router>

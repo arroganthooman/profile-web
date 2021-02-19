@@ -24,7 +24,7 @@ const Navbar = () => {
                 {content.map((item, index) => {
                     return (
                     <li className="nav-item" key={index}>
-                        <Link to={`/${item}`} style={linkStyle} className="nav-link">{item}</Link>
+                        <Link to={`${item}`} style={linkStyle} className="nav-link">{item}</Link>
                     </li>
                     )
                 })}
