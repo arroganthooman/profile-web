@@ -24,7 +24,7 @@ const Projects = () => {
                             A web app that helps Qur'an's Hafidz and Hafidzhoh 
                             strengthen their qur'an recitation. Implemented using HTML, CSS, JS and Django.
                             </p>
-                            <a href="https://gomurojaah.herokuapp.com" className="btn btn-primary">visit</a>
+                            <a href="https://gomurojaah.herokuapp.com" target="_blank" className="btn btn-primary">visit</a>
                         </div>
                     </div>
                 </div>
@@ -36,7 +36,7 @@ const Projects = () => {
                             <p className="card-text">
                                 CoroNow means showing anything relates to covid-19. Implented using HTML, CSS , JS and Django.
                             </p>
-                            <a href="https://coronow2.herokuapp.com" className="btn btn-primary">visit</a>
+                            <a href="https://coronow2.herokuapp.com" target="_blank" className="btn btn-primary">visit</a>
                         </div>
                     </div>
                 </div>
