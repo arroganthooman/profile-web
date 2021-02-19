@@ -251,6 +251,10 @@ nav a {
   height: 50vh;
 }
 
+.experiences .container-fluid {
+  margin-top:8vh;
+}
+
 .experiences .row-satu .col-md:nth-child(1),
 .experiences .row-dua .col-md:nth-child(2) {
   background-color: #eae4d1;
@@ -511,8 +515,16 @@ nav a {
 
   /* experiences */
 
-  .experiences {
-    height: 110vh;
+  section.experiences {
+    height:110vh;
+  }
+
+  #experiences p {
+    margin-top: 10vh;
+  }
+
+  .experiences .container-fluid {
+    margin-top: 0;
   }
 
   .experiences .row-dua .col-md:nth-child(1) {
